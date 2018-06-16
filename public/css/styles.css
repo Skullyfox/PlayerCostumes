@@ -316,6 +316,7 @@ a, a:hover, a:visited {
       max-width: 900px; } }
 
 .home {
+  background: linear-gradient(45deg, #FFAB91 0%, #90CAF9 120%);
   height: 100vh;
   width: 100vw; }
 
