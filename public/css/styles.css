@@ -233,10 +233,10 @@ a, a:hover, a:visited {
 .flex {
   display: flex; }
   .flex.rows {
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap; }
   .flex.columns {
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap; }
     .flex.columns.center {
       justify-content: center; }
