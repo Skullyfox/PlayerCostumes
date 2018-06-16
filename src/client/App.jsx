@@ -1,4 +1,7 @@
-import React from 'react';
+import React                              from 'react';
+import { BrowserRouter, Switch, Route}    from 'react-router-dom';
+
+import Home                               from './pages/Home/Home.jsx';
 
 class App extends React.Component {
     constructor(props) {
@@ -7,7 +10,13 @@ class App extends React.Component {
 
     render() {
         return (
-            <h1>Hello World</h1>
+            <BrowserRouter>
+                <React.Fragment>
+                    <Switch>
+                        <Route path="/" component={ Home }/>
+                    </Switch>
+                </React.Fragment>    
+            </BrowserRouter>
         )
     }
 }
